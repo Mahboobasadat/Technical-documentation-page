@@ -64,14 +64,13 @@ body {
   
   main{
     display: block;
-    position: fixed;
+    position: relative;
     margin-left: 10em;
     margin-right: 1em;
     height: 100%;
     top: 0;
-    left: 10vw;
     margin-right: 1em;
-    padding: 1em;
+    padding:0 10%;
   }
  
   p {
