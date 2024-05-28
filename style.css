@@ -1,10 +1,13 @@
 html {
+  scroll-behavior: smooth;
+}
+body {
     display: block;
     font-family: 'Playfair Display', serif;
     word-spacing: 3px;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   header {
@@ -24,7 +27,7 @@ html {
       font: 14px;
     }
   }
-  
+
   #navbar {
     position: fixed;
     width: 15 vw;
@@ -51,10 +54,12 @@ html {
     font-size: 18px;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: white;
   }
   
   .nav-link:hover {
-    color: #c6e5e3;
+    color: black;
   }
   
   main{
@@ -68,11 +73,7 @@ html {
     margin-right: 1em;
     padding: 1em;
   }
-  @media screen and (max-width: 600px) {
-    width: 5.5vw;
-    height: auto;
-  }
-  
+ 
   p {
     padding-left: 1em;
   }
@@ -87,7 +88,7 @@ html {
     white-space: pre-wrap;
     color: #0e3f5c;
     background-color: rgb(211,211,211, 0.8);
-    border: solid #rgb(211,211,211);
+    border: solid rgba(211,211,211);
     padding: 0.5em 1em;
     font-weight: bold;
     font-size: 14px;
